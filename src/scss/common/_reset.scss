@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+input, textarea, select {
+    -webkit-appearance: none;
+    line-height: normal;
+}
+input {
+     border: none;
+}
+// ::-webkit-scrollbar {
+//   width: 0;
+//   background: transparent; }
+// ::-webkit-scrollbar-thumb {
+//   width: 0;
+//   background: transparent; }
+.btn-link:focus, .btn-link.focus {
+    text-decoration: none;
+}
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    line-height: inherit;
+}
+legend {margin-bottom: 0;}
+
+
+mark {
+    padding: 0;
+    display: block;
+    background-color: inherit;
+}
+
+*, *:focus {
+  outline: none;
+}
+*:before, *:after {
+  user-select: none;
+}
+input, textarea, input:before, textarea:before, input:after, textarea:after {
+  user-select: initial;
+}
+
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+  font-weight: normal;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+form {
+  margin: 0;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  appearance: none;
+  overflow: auto;
+}
+::placeholder {
+  color: inherit;
+  opacity: 1;
+}
+img {
+  max-width: 100%;
+  border: none;
+  height: auto;
+}
+label {
+  user-select: none;
+  margin: 0;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  &:focus {
+      outline: none;
+  }
+}
